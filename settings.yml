@@ -1,0 +1,42 @@
+bot:
+  # Discord botunuzun tokeni
+  token: 'MTE5NjkzMjEzMzg5ODQzMjU4Mg.G0rTsr.4l3ZhbvzpdVx_u20HqR7WcHV2DElvB_BOb5SY0'
+  # Discord botunuzun application idsi
+  id: '1196932133898432582'
+  # Discord botunun durum kısmı
+  status:
+    # Discord botunun açıklma kısmındaki event; playing = Oynuyor, streaming = Yayında, listening = Dinliyor, watching = İzliyor, competing = Yarışmada yarışıyor.
+    activity: 'listening'
+    # Discord botunun açıklama yazısı; %onDutyPolice% yazarak aktif mesaideki memurların sayısını gösterebilirsiniz.
+    text: '/aktif-mesai'
+    # Discord botunun açıklma kısmındaki event streaming olarak ayarlanırsa aşağıdaki twitch kısmını doldurunuz.
+    twitch: ''
+    # Discord botunun aktiflik kısmı; online = Aktif, idle = Boşta, dnd = Rahatsız Etmeyin, invisible = Çevrimdışı.
+    status: 'online'
+guild:
+  # Discord sunucunuzun idsi
+  id: '1179154804132552835'
+settings:
+  departmentName: 'Blaine County Sherrif Office'
+  departmentLogo: 'https://static.wikia.nocookie.net/rde/images/e/e1/Lore-friendly-bcso_logo.png/revision/latest?cb=20171218164800'
+  departmentBanner: 'https://cdn.discordapp.com/attachments/1195881542740889680/1197007429049798716/sadad.png?ex=65b9b30a&is=65a73e0a&hm=0f3f21069b1d7ad8ce666c37ecee744a26c5b82d2cf020c81b0c2ad66438f8d8&'
+  departmentColor: '#ffff00'
+  roles:
+    # Rütbe rollerinin idleri
+    officers: ['1179154804132552844', '1179154804153532416', '1179154804153532417', '1179154804153532418', '1179154804153532419', '1179154804153532420', '1179154804153532421', '1179154804153532422', '1179169637825527838', '1179154804187082887']
+  channels:
+    # Log kanalının idsi
+    log: '1197006111551795291'
+  # Mesaj içerikelrinde kulanılan emojiler, 📋 şeklinde, :emojiAdı: şeklinde veya idsiyle kullanılabilir.
+  emojis:
+    department: '👮'
+    on: '🟩'
+    off: '🟥'
+    warning: '⚠️'
+    info: '📋'
+    clock: '⏲️'
+commands:
+    # Aktif mesaideki üyeleri gösteren komut
+    activeDuty:
+      # Bu komutu kullanabilmek için gereken rol
+      requiredRole: '1197005523233550366'

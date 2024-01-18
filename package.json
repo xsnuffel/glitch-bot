@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "croxydb": "^0.0.22",
+    "discord.js": "^14.13.0",
+    "loader": "^2.1.1",
+    "main": "^1000.0.1",
+    "node-env-config-file-loader": "^1.0.2"
+  }
+}
